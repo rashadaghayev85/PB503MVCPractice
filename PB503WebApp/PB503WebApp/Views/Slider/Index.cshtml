@@ -1,0 +1,85 @@
+﻿@model List<Slider>
+@{
+    Layout = null;
+}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+<a  asp-action="create" class="btn btn-outline-primary mt-5">Create</a>
+
+<table class="table mt-5">
+    <thead>
+        <tr>
+            
+            <th scope="col">Image</th>
+            <th scope="col">Title</th>
+            <th scope="col">Description</th>
+            <th scope="col">Operations</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            
+            <td><img height="200" width="200" src="~/uploads/sliders/@item.ImageUrl" alt="Alternate Text" /></td>
+            <td>@item.Title</td>
+            <td>@item.Description</td>
+            <td>
+                <form class="fromDelete" asp-controller="slider" asp-action="delete" asp-route-id="@item.Id" method="post">
+                        <button onclick="deleteConfirm()" type="button" class="btn btn-outline-danger deletes">Delete</button>
+                    
+                </form>
+
+            </td>
+        </tr>
+            
+        }
+       
+     
+    </tbody>
+</table>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+
+    
+    const formDelete = document.querySelector(".fromDelete");
+    const button=document.querySelectorAll(".deletes") 
+
+    button.forEach(elem=>{
+        elem.addEventListener("click", function () {
+        
+            
+           const id= this.getAttribute('asp-route-id')
+
+            console.log(id);
+        })
+    })
+    function deleteConfirm() {
+        Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!"
+        }).then((result) => {
+            if (result.isConfirmed) {
+              
+                Swal.fire({
+                    title: "Deleted!",
+                    text: "Your file has been deleted.",
+                    icon: "success",
+                    timer: 2000,
+                    showConfirmButton: false,
+                    willClose: () => {
+
+                        fetch(`https://localhost:7152/Slider/delete/${id}`)
+                    }
+                });
+            }
+        });
+    }
+
+  
+</script>
