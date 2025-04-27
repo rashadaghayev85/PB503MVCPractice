@@ -2,84 +2,155 @@
 @{
     Layout = null;
 }
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="container mt-5">
 
-<a  asp-action="create" class="btn btn-outline-primary mt-5">Create</a>
+    <a asp-action="Create" class="btn btn-outline-primary mb-4">Create</a>
 
-<table class="table mt-5">
-    <thead>
-        <tr>
+    <table class="table table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Image</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Operations</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="~/uploads/sliders/@item.ImageUrl" width="200" height="200" alt="Slider Image" />
+                    </td>
+                    <td>@item.Title</td>
+                    <td>@item.Description</td>
+                    <td>
+
+                        <a class="btn btn-outline-info" asp-controller="slider" asp-action="edit" asp-route-id="@item.Id">Edit</a>
+                        <form class="fromDelete mt-3" asp-controller="Slider" asp-action="Delete" asp-route-id="@item.Id" method="post">
+                            <button type="button" data-id="@item.Id" class="btn btn-outline-danger deletes">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <nav aria-label="...">
+        <ul class="pagination">
+            <li class="page-item disabled">
+                <a class="page-link"  tabindex="-1">Previous</a>
+            </li>
             
-            <th scope="col">Image</th>
-            <th scope="col">Title</th>
-            <th scope="col">Description</th>
-            <th scope="col">Operations</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-        <tr>
+            <li class="page-item">
+                <a class="page-link active">1</a>
+                </li>
+                
             
-            <td><img height="200" width="200" src="~/uploads/sliders/@item.ImageUrl" alt="Alternate Text" /></td>
-            <td>@item.Title</td>
-            <td>@item.Description</td>
-            <td>
-                <form class="fromDelete" asp-controller="slider" asp-action="delete" asp-route-id="@item.Id" method="post">
-                        <button onclick="deleteConfirm()" type="button" class="btn btn-outline-danger deletes">Delete</button>
-                    
-                </form>
+            <li class="page-item ">
+                <a class="page-link" >2 <span class="sr-only"></span></a>
+            </li>
+            <li class="page-item"><a class="page-link" >3</a></li>
+            <li class="page-item ">
+                <a class="page-link">Next</a>
+            </li>
+        </ul> 
+    </nav>
+    <script>
 
-            </td>
-        </tr>
-            
-        }
-       
-     
-    </tbody>
-</table>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script>
+        const pageItem=document.querySelectorAll(".page-item")
+        pageItem.forEach(elem => {
 
-    
-    const formDelete = document.querySelector(".fromDelete");
-    const button=document.querySelectorAll(".deletes") 
+            elem.addEventListener("click", function () {
+               
+                 
+                
+                const currentActive = document.querySelector(".page-item.active");
+               
+                 // fetch(`https://localhost:7152/slider?page=${elem.innerText}`)
+                
 
-    button.forEach(elem=>{
-        elem.addEventListener("click", function () {
-        
-            
-           const id= this.getAttribute('asp-route-id')
-
-            console.log(id);
-        })
-    })
-    function deleteConfirm() {
-        Swal.fire({
-            title: "Are you sure?",
-            text: "You won't be able to revert this!",
-            icon: "warning",
-            showCancelButton: true,
-            confirmButtonColor: "#3085d6",
-            cancelButtonColor: "#d33",
-            confirmButtonText: "Yes, delete it!"
-        }).then((result) => {
-            if (result.isConfirmed) {
               
-                Swal.fire({
-                    title: "Deleted!",
-                    text: "Your file has been deleted.",
-                    icon: "success",
-                    timer: 2000,
-                    showConfirmButton: false,
-                    willClose: () => {
+                
+                // if (elem.innerText == "Previous") {
+                //     if (currentActive && currentActive.previousElementSibling && !currentActive.previousElementSibling.classList.contains("disabled")) {
+                //         currentActive.classList.remove("active");
+                //         currentActive.previousElementSibling.classList.add("active");
+                //     }
+                // }
+                // else if (elem.innerText == "Next") {
+                //     if (currentActive && currentActive.nextElementSibling && !currentActive.nextElementSibling.querySelector(".page-link").innerText.includes("Next")) {
+                //         currentActive.classList.remove("active");
+                //         currentActive.nextElementSibling.classList.add("active");
+                //     }
+                    
+                // }
+                // else{
+                //     pageItems.forEach(el => el.classList.remove("active"));
+                //     elem.classList.add("active");
+                // }
 
-                        fetch(`https://localhost:7152/Slider/delete/${id}`)
+                // const activePage = document.querySelector(".page-item.active");
+                // if (activePage && activePage.querySelector(".page-link").innerText !== "Previous" && activePage.querySelector(".page-link").innerText !== "Next") {
+                //     fetch(`https://localhost:7152/slider/GetPaginateDatas?page=${activePage.querySelector(".page-link").innerText}`);
+                // }
+
+            })
+        });
+
+
+
+        const deleteButtons = document.querySelectorAll(".deletes");
+
+        deleteButtons.forEach(button => {
+            button.addEventListener("click", function () {
+                const form = this.closest("form");
+
+                Swal.fire({
+                    title: "Are you sure?",
+                    text: "You won't be able to revert this!",
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonColor: "#3085d6",
+                    cancelButtonColor: "#d33",
+                    confirmButtonText: "Yes, delete it!",
+                    cancelButtonText: "Cancel"
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        fetch(form.action, {
+                            method: 'POST'
+                        })
+                            .then(response => response.json())
+                            .then(data => {
+                                if (data.success) {
+                                    Swal.fire({
+                                        title: "Deleted!",
+                                        text: "Slider successfuly deleted.",
+                                        icon: "success",
+                                        timer: 2000,
+                                        showConfirmButton: false
+                                    }).then(() => {
+                                        form.closest("tr").remove();
+                                    });
+                                } else {
+                                    Swal.fire("Error", "An error occurred during deletion.", "error");
+                                }
+                            })
+                            .catch(() => {
+                                Swal.fire("Xəta", "Failed to connect to the server.", "error");
+                            });
                     }
                 });
-            }
+            });
         });
-    }
+    </script>
 
-  
-</script>
+</body>
+</html>

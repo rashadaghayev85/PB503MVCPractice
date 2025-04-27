@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\PB503WebApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C01339A5-6F33-4CC1-9240-BBE2FCB97ACC}|PB503WebApp\\PB503WebApp.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\pb503webapp\\pb503webapp\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C01339A5-6F33-4CC1-9240-BBE2FCB97ACC}|PB503WebApp\\PB503WebApp.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb503mvcpractice\\pb503webapp\\pb503webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C01339A5-6F33-4CC1-9240-BBE2FCB97ACC}|PB503WebApp\\PB503WebApp.csproj|solutionrelative:pb503webapp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C01339A5-6F33-4CC1-9240-BBE2FCB97ACC}|PB503WebApp\\PB503WebApp.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\pb503webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01339A5-6F33-4CC1-9240-BBE2FCB97ACC}|PB503WebApp\\PB503WebApp.csproj|solutionrelative:pb503webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C01339A5-6F33-4CC1-9240-BBE2FCB97ACC}|PB503WebApp\\PB503WebApp.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb503mvcpractice\\pb503webapp\\pb503webapp\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C01339A5-6F33-4CC1-9240-BBE2FCB97ACC}|PB503WebApp\\PB503WebApp.csproj|solutionrelative:pb503webapp\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C01339A5-6F33-4CC1-9240-BBE2FCB97ACC}|PB503WebApp\\PB503WebApp.csproj|c:\\users\\rashad\\onedrive\\desktop\\pb101\\code\\pb503webapp\\pb503webapp\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C01339A5-6F33-4CC1-9240-BBE2FCB97ACC}|PB503WebApp\\PB503WebApp.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\pb503webapp\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C01339A5-6F33-4CC1-9240-BBE2FCB97ACC}|PB503WebApp\\PB503WebApp.csproj|solutionrelative:pb503webapp\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C01339A5-6F33-4CC1-9240-BBE2FCB97ACC}|PB503WebApp\\PB503WebApp.csproj|C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\pb503webapp\\viewmodels\\slider\\slidervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C01339A5-6F33-4CC1-9240-BBE2FCB97ACC}|PB503WebApp\\PB503WebApp.csproj|solutionrelative:pb503webapp\\viewmodels\\slider\\slidervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +38,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SliderController.cs",
-              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\PB503WebApp\\PB503WebApp\\Controllers\\SliderController.cs",
-              "RelativeDocumentMoniker": "PB503WebApp\\Controllers\\SliderController.cs",
-              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\PB503WebApp\\PB503WebApp\\Controllers\\SliderController.cs",
-              "RelativeToolTip": "PB503WebApp\\Controllers\\SliderController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAkwF4AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T16:07:22.266Z",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\PB503WebApp\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PB503WebApp\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\PB503WebApp\\appsettings.Development.json",
+              "RelativeToolTip": "PB503WebApp\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-27T07:53:19.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "SliderVM.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\PB503WebApp\\ViewModels\\Slider\\SliderVM.cs",
+              "RelativeDocumentMoniker": "PB503WebApp\\ViewModels\\Slider\\SliderVM.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\PB503WebApp\\ViewModels\\Slider\\SliderVM.cs",
+              "RelativeToolTip": "PB503WebApp\\ViewModels\\Slider\\SliderVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T18:42:39.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\PB503WebApp\\PB503WebApp\\Views\\Slider\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\PB503WebApp\\Views\\Slider\\Index.cshtml",
               "RelativeDocumentMoniker": "PB503WebApp\\Views\\Slider\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB101\\code\\PB503WebApp\\PB503WebApp\\Views\\Slider\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\PB503WebApp\\Views\\Slider\\Index.cshtml",
               "RelativeToolTip": "PB503WebApp\\Views\\Slider\\Index.cshtml",
-              "ViewState": "AQIAADQAAAAAAAAAAAAmwEcAAAAkAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAcwDYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T15:40:30.384Z",
+              "WhenOpened": "2025-04-26T15:47:47.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\PB503WebApp\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "PB503WebApp\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\PB503WebApp\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "PB503WebApp\\Controllers\\SliderController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAD4vyMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:45:49.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\PB503WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "PB503WebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\PB503WebApp\\Program.cs",
+              "RelativeToolTip": "PB503WebApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T13:22:00.911Z",
               "EditorCaption": ""
             }
           ]

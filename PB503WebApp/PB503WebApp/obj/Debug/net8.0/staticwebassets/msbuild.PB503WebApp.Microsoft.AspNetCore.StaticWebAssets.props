@@ -3840,12 +3840,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\PB503WebApp.bundle.scp.css))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\096da0b4-3bda-41f6-84a9-8ae86de8c8f1ABB_Tamcard_8042ab0757.af2988f7.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\1a970c57-da36-4360-8c9d-0698b619f44bqidalanma_3_d30d72de34.9ffad3ae.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>PB503WebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/096da0b4-3bda-41f6-84a9-8ae86de8c8f1ABB_Tamcard_8042ab0757.af2988f7.png</RelativePath>
+      <RelativePath>uploads/sliders/1a970c57-da36-4360-8c9d-0698b619f44bqidalanma_3_d30d72de34.9ffad3ae.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3854,14 +3854,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\096da0b4-3bda-41f6-84a9-8ae86de8c8f1ABB_Tamcard_8042ab0757.af2988f7.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\1a970c57-da36-4360-8c9d-0698b619f44bqidalanma_3_d30d72de34.9ffad3ae.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\1a0e9066-32d3-4bfc-9b5b-86b15e5f9d06arrive.svg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\23a9f8f4-a6e6-490b-b8a0-a3a84c395e34arrive.svg))">
       <SourceType>Package</SourceType>
       <SourceId>PB503WebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/1a0e9066-32d3-4bfc-9b5b-86b15e5f9d06arrive.svg</RelativePath>
+      <RelativePath>uploads/sliders/23a9f8f4-a6e6-490b-b8a0-a3a84c395e34arrive.svg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3870,14 +3870,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\1a0e9066-32d3-4bfc-9b5b-86b15e5f9d06arrive.svg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\23a9f8f4-a6e6-490b-b8a0-a3a84c395e34arrive.svg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\2c72c9ec-bfaa-48c5-9f2c-accb80138a34arrive.svg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\46b37144-8ebf-4dca-87d3-51d79f34680fmile_ba6f049c01.aa62193e.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>PB503WebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/2c72c9ec-bfaa-48c5-9f2c-accb80138a34arrive.svg</RelativePath>
+      <RelativePath>uploads/sliders/46b37144-8ebf-4dca-87d3-51d79f34680fmile_ba6f049c01.aa62193e.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3886,14 +3886,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\2c72c9ec-bfaa-48c5-9f2c-accb80138a34arrive.svg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\46b37144-8ebf-4dca-87d3-51d79f34680fmile_ba6f049c01.aa62193e.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\4ea35547-9ef0-468e-984b-bf8b14ec42c2appStore.svg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\82dd61af-4fb0-4a81-b428-e91eb7fba958ABB_Tamcard_8042ab0757.af2988f7.png))">
       <SourceType>Package</SourceType>
       <SourceId>PB503WebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/4ea35547-9ef0-468e-984b-bf8b14ec42c2appStore.svg</RelativePath>
+      <RelativePath>uploads/sliders/82dd61af-4fb0-4a81-b428-e91eb7fba958ABB_Tamcard_8042ab0757.af2988f7.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3902,14 +3902,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\4ea35547-9ef0-468e-984b-bf8b14ec42c2appStore.svg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\82dd61af-4fb0-4a81-b428-e91eb7fba958ABB_Tamcard_8042ab0757.af2988f7.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\51f2e547-90ad-413f-8d7e-564970dca695arrive.svg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\8e938bdb-fcd5-4505-bae9-d8c2c20abf94light.svg))">
       <SourceType>Package</SourceType>
       <SourceId>PB503WebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/51f2e547-90ad-413f-8d7e-564970dca695arrive.svg</RelativePath>
+      <RelativePath>uploads/sliders/8e938bdb-fcd5-4505-bae9-d8c2c20abf94light.svg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3918,14 +3918,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\51f2e547-90ad-413f-8d7e-564970dca695arrive.svg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\8e938bdb-fcd5-4505-bae9-d8c2c20abf94light.svg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\52fe713a-0dfb-458b-b1bc-9f5b29db3069arrive.svg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\97f0dd05-8e29-4c13-9d60-1b9889488c1cbusiness_class_p_2_33c4d907d3.fd011fad.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>PB503WebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/52fe713a-0dfb-458b-b1bc-9f5b29db3069arrive.svg</RelativePath>
+      <RelativePath>uploads/sliders/97f0dd05-8e29-4c13-9d60-1b9889488c1cbusiness_class_p_2_33c4d907d3.fd011fad.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3934,14 +3934,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\52fe713a-0dfb-458b-b1bc-9f5b29db3069arrive.svg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\97f0dd05-8e29-4c13-9d60-1b9889488c1cbusiness_class_p_2_33c4d907d3.fd011fad.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\602d82c1-ca93-4b22-805e-fc840ed30a5cappStore.svg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\b362281b-220a-42f6-abdd-8d419b13c7b5ABB_Tamcard_8042ab0757.af2988f7.png))">
       <SourceType>Package</SourceType>
       <SourceId>PB503WebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/602d82c1-ca93-4b22-805e-fc840ed30a5cappStore.svg</RelativePath>
+      <RelativePath>uploads/sliders/b362281b-220a-42f6-abdd-8d419b13c7b5ABB_Tamcard_8042ab0757.af2988f7.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -3950,183 +3950,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\602d82c1-ca93-4b22-805e-fc840ed30a5cappStore.svg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\7003d082-eadb-40ea-9ad0-04af529b45f1arrive.svg))">
-      <SourceType>Package</SourceType>
-      <SourceId>PB503WebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/7003d082-eadb-40ea-9ad0-04af529b45f1arrive.svg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\7003d082-eadb-40ea-9ad0-04af529b45f1arrive.svg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\763fd748-ce57-4715-ba37-dc0ce19abb53arrive.svg))">
-      <SourceType>Package</SourceType>
-      <SourceId>PB503WebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/763fd748-ce57-4715-ba37-dc0ce19abb53arrive.svg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\763fd748-ce57-4715-ba37-dc0ce19abb53arrive.svg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\7e07d635-9383-4f9b-a541-2461458ee2e7arrive.svg))">
-      <SourceType>Package</SourceType>
-      <SourceId>PB503WebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/7e07d635-9383-4f9b-a541-2461458ee2e7arrive.svg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\7e07d635-9383-4f9b-a541-2461458ee2e7arrive.svg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\84b2f0ac-503d-4b67-9042-e7820f6f817darrive.svg))">
-      <SourceType>Package</SourceType>
-      <SourceId>PB503WebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/84b2f0ac-503d-4b67-9042-e7820f6f817darrive.svg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\84b2f0ac-503d-4b67-9042-e7820f6f817darrive.svg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\9407e0ca-f169-465f-9dc6-ca766a489d67BCN.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>PB503WebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/9407e0ca-f169-465f-9dc6-ca766a489d67BCN.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\9407e0ca-f169-465f-9dc6-ca766a489d67BCN.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\9d79138b-19d3-4c3c-abdf-4e2e680a01ecarrive.svg))">
-      <SourceType>Package</SourceType>
-      <SourceId>PB503WebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/9d79138b-19d3-4c3c-abdf-4e2e680a01ecarrive.svg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\9d79138b-19d3-4c3c-abdf-4e2e680a01ecarrive.svg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\a160fd09-a1de-4541-8cd0-045ec2c8acc2arrive.svg))">
-      <SourceType>Package</SourceType>
-      <SourceId>PB503WebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/a160fd09-a1de-4541-8cd0-045ec2c8acc2arrive.svg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\a160fd09-a1de-4541-8cd0-045ec2c8acc2arrive.svg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\a91ef93b-437c-4490-ab2b-cf88e9a0d0eaarrive.svg))">
-      <SourceType>Package</SourceType>
-      <SourceId>PB503WebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/a91ef93b-437c-4490-ab2b-cf88e9a0d0eaarrive.svg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\a91ef93b-437c-4490-ab2b-cf88e9a0d0eaarrive.svg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\b00def96-3403-43b7-8645-b487bf35f416VIE.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>PB503WebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/b00def96-3403-43b7-8645-b487bf35f416VIE.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\b00def96-3403-43b7-8645-b487bf35f416VIE.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\d18e5970-7e60-419d-a5c3-801376c51046appStore.svg))">
-      <SourceType>Package</SourceType>
-      <SourceId>PB503WebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/d18e5970-7e60-419d-a5c3-801376c51046appStore.svg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\d18e5970-7e60-419d-a5c3-801376c51046appStore.svg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\d7cf8e0d-d7aa-4429-8c41-20659457f01eappStore.svg))">
-      <SourceType>Package</SourceType>
-      <SourceId>PB503WebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/PB503WebApp</BasePath>
-      <RelativePath>uploads/sliders/d7cf8e0d-d7aa-4429-8c41-20659457f01eappStore.svg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\d7cf8e0d-d7aa-4429-8c41-20659457f01eappStore.svg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\b362281b-220a-42f6-abdd-8d419b13c7b5ABB_Tamcard_8042ab0757.af2988f7.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\vendor\animate\animate.css))">
       <SourceType>Package</SourceType>

@@ -1,0 +1,35 @@
+﻿@model SliderEditVM
+@{
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Edit";
+}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+<div>
+    <h1>Old Image</h1>
+    <img height="300" width="300" src="~/uploads/sliders/@Model?.ImageUrl" alt="Alternate Text" />
+</div>
+
+<form method="post" enctype="multipart/form-data" asp-controller="slider" asp-action="edit">
+
+    <div class="form-group" style="width:500px">
+        <label for="exampleFormControlInput1" class="form-label">Title</label>
+        <input asp-for=Title type="text" class="form-control">
+        <span class="text-danger" asp-validation-for="Title"></span>
+    </div>
+
+    <div class="form-group" style="width:500px">
+        <label for="exampleFormControlInput1" class="form-label">Description</label>
+        <input asp-for=Description type="text" class="form-control">
+        <span class="text-danger" asp-validation-for="Description"></span>
+    </div>
+
+    <div class="form-group" style="width:500px">
+        <label for="exampleFormControlInput1" class="form-label">Image</label>
+        <input asp-for="NewImage" type="file" class="form-control">
+        <span class="text-danger" asp-validation-for="NewImage"></span>
+    </div>
+    <button type="submit" class="btn btn-outline-success mt-5">Add</button>
+</form>
