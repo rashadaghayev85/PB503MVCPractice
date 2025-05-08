@@ -2,16 +2,17 @@
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /app
 
-# Layihə faylını əlavə et və restore et
-COPY PB503WebApp.csproj ./
-RUN dotnet restore
+# PB503WebApp.csproj faylını kopyalayın
+COPY PB503WebApp/PB503WebApp.csproj ./PB503WebApp/
+RUN dotnet restore ./PB503WebApp/PB503WebApp.csproj
 
-# Qalan faylları da əlavə et və build et
-COPY . ./
+# Bütün qovluğu kopyalayın
+COPY PB503WebApp/ ./PB503WebApp/
+WORKDIR /app/PB503WebApp
 RUN dotnet publish -c Release -o out
 
 # 2. Runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
 WORKDIR /app
-COPY --from=build /app/out ./
+COPY --from=build /app/PB503WebApp/out ./
 ENTRYPOINT ["dotnet", "PB503WebApp.dll"]
