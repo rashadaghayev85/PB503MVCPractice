@@ -1,28 +1,17 @@
-# Build image
+# 1. Build image
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /app
 
-# Layihə faylını kopyalayın və restore əmri verin
-COPY PB503WebApp/PB503WebApp.csproj ./PB503WebApp/
-RUN dotnet restore PB503WebApp/PB503WebApp.csproj
+# Layihə faylını əlavə et və restore et
+COPY PB503WebApp.csproj ./
+RUN dotnet restore
 
-# Layihə kodlarını kopyalayın
-COPY . .
+# Qalan faylları da əlavə et və build et
+COPY . ./
+RUN dotnet publish -c Release -o out
 
-# Layihəni "Publish" etmək üçün çalışma mühitini təyin edin
-WORKDIR /app/PB503WebApp
-RUN dotnet publish -c Release -o /out
-
-# Run image
-FROM mcr.microsoft.com/dotnet/aspnet:6.0
+# 2. Runtime image
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
 WORKDIR /app
-
-# Əvvəlki addımda yaradılan faylları kopyalayın
-COPY --from=build /out .
-
-# Portu açın
-ENV ASPNETCORE_URLS=http://+:5000
-EXPOSE 5000
-
-# Tətbiqin işə salınması
+COPY --from=build /app/out ./
 ENTRYPOINT ["dotnet", "PB503WebApp.dll"]
