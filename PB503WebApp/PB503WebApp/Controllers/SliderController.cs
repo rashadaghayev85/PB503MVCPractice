@@ -48,7 +48,7 @@ var datas = sliders.Select(m => new SliderVM
 
 
 
-return View(datas);
+return View(sliders);
         }
 
         public async Task<IActionResult>GetPaginateDatas(int page=1,int count=3)

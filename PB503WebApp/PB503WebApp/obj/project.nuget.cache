@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zvi0DynWudSQi9dUduvxxGIgl9euG4IFJibX5Y7rB5/gkrQetUvhvU/cni/7FqaN1kjFPpjS6PYLoJFUYWGCcw==",
+  "dgSpecHash": "tzMMzYcJnBDNui8ewHe1Fp6hTAMoXk4UpW+zKcyVkixQ1SJY6eUfYXx9+cc1nHjJSJufUl9fol9v/e74N8p13w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rashad\\OneDrive\\Desktop\\PB503MVCPractice\\PB503WebApp\\PB503WebApp\\PB503WebApp.csproj",
   "expectedPackageFiles": [
@@ -115,6 +115,8 @@
     "C:\\Users\\Rashad\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "C:\\Users\\Rashad\\.nuget\\packages\\mono.texttemplating\\2.3.1\\mono.texttemplating.2.3.1.nupkg.sha512",
     "C:\\Users\\Rashad\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Rashad\\.nuget\\packages\\npgsql\\8.0.6\\npgsql.8.0.6.nupkg.sha512",
+    "C:\\Users\\Rashad\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.11\\npgsql.entityframeworkcore.postgresql.8.0.11.nupkg.sha512",
     "C:\\Users\\Rashad\\.nuget\\packages\\nuget.common\\6.11.0\\nuget.common.6.11.0.nupkg.sha512",
     "C:\\Users\\Rashad\\.nuget\\packages\\nuget.configuration\\6.11.0\\nuget.configuration.6.11.0.nupkg.sha512",
     "C:\\Users\\Rashad\\.nuget\\packages\\nuget.dependencyresolver.core\\6.11.0\\nuget.dependencyresolver.core.6.11.0.nupkg.sha512",

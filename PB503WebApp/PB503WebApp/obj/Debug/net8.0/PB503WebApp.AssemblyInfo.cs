@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PB503WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba02ae0f05223f3fe034f85ea450e8f2dfa57ecb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+030bcfe95283d3038f17d93d0ec393f83e26bffd")]
 [assembly: System.Reflection.AssemblyProductAttribute("PB503WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PB503WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
