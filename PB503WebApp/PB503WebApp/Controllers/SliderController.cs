@@ -23,21 +23,32 @@ namespace PB503WebApp.Controllers
         public async Task<IActionResult> Index(int page = 1, int count = 3)
         {
 
-             var slider=await _context.Sliders.AsNoTracking().ToListAsync();
-            int skip = (page - 1) * count;
-            var data = await _context.Sliders.ToListAsync();
-            var sliders = data.Skip(skip).Take(count).ToList();
+         var query =  _context.Sliders.AsQueryable();
 
-            //var datas = slider.Select(m=>new SliderVM
-            //{
-            //    ImageUrl = m.ImageUrl,
-            //    Description = m.Description,
-            //    Title = m.Title,    
-            //}).ToList();
 
-           
-           
-            return View(sliders);
+//ViewBag.TotalItems=query.Count();
+
+//ViewBag.TotalPage =Math.Ceiling((double)query.Count()/count);
+
+// var slider=await query.ToListAsync();
+
+
+
+int skip = (page - 1) * count;
+var data = await _context.Sliders.ToListAsync();
+var sliders = data.Skip(skip).Take(count).ToList();
+
+var datas = sliders.Select(m => new SliderVM
+{
+    ImageUrl = m.ImageUrl,
+    Description = m.Description,
+    Title = m.Title,
+}).ToList();
+
+
+
+
+return View(datas);
         }
 
         public async Task<IActionResult>GetPaginateDatas(int page=1,int count=3)
